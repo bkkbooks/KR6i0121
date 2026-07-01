@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0121/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0121/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說阿難問事佛吉凶經
+  identifiers:
+    krp: KR6i0121
+    cbeta: T14n0492a
+    cbeta_old_id: T14n0492a
+    authorityid: CA0000049a
+    json_key: T0492a
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0492a.xml
+    old_id: T14n0492a
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0121_000-T.yaml, hash: 'sha256:6fcaaf0a3b648f193b4aa757022ff264d3d315b0200780e8f8d341772b6c54c9'}
+  - {seq: 1, filename: KR6i0121_001-T.yaml, hash: 'sha256:80b3ffcc64c059a8ac28837ad25b0780da6817ecc26865c8f5ee67bfbe4943cf'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0121_000-T.markers.yaml, hash: 'sha256:5f46795b0db6db85cf95f696670e469ae0037fcdd907fcdf9a683b0a2ce9885e'}
+  - {seq: 1, role: markers, filename: assets/KR6i0121_001-T.markers.yaml, hash: 'sha256:a6e6160b62eb4e7eeffe028440b5e2be42060f6e1ba3e9002ea0f3c05fbf0434'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0121_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1987
+  label: 佛說阿難問事佛吉凶經
+  type: juan
+  level: 1
+hash: sha256:223901ebb9920663d9b76c55f2881296a9469e41f81c4db2546e58b353b13e42
