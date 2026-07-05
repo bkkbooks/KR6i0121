@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0121_000.yaml, hash: 'sha256:6fcaaf0a3b648f193b4aa757022ff264d3d315b0200780e8f8d341772b6c54c9'}
-  - {seq: 1, filename: KR6i0121_001.yaml, hash: 'sha256:85e1843a6bdf83671fc3f8055ad2ded9b3012b7fbdb92aab105199aa477593b5'}
+  - {seq: 1, filename: KR6i0121_001.yaml, hash: 'sha256:80b3ffcc64c059a8ac28837ad25b0780da6817ecc26865c8f5ee67bfbe4943cf'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0121_001.markers.yaml, hash: 'sha256:c18ccf00d2c9d36edcafb5dcc5cdab810f01df9e3dc3ba990f5e0edde39f09ae'}
+  - {seq: 0, role: markers, filename: assets/KR6i0121_000.markers.yaml, hash: 'sha256:42ab8364eaaafd5cbac9118342d2f293ee3cf845f96fbb925103bdd33e3dd36b'}
+  - {seq: 1, role: markers, filename: assets/KR6i0121_001.markers.yaml, hash: 'sha256:9086c5da24f0b3a40f7a97fac85c810804d2c2c9f7c0f4580543a9eed06678f0'}
 table_of_contents:
 - ref:
     seq: 1
@@ -36,7 +37,4 @@ table_of_contents:
   label: 佛說阿難問事佛吉凶經
   type: juan
   level: 1
-hash: sha256:db7a589129b59029cb9b2086916ba50d7493282c5f6d8a64d5642cf2f468bed7
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:3c77176f5eabfefadce5cbafdb4be36b9d3e466934c727a5010e4d1adfff219f
